@@ -1,0 +1,451 @@
+
+*{
+    box-sizing: border-box;
+}
+nav{
+  
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: black;
+}
+nav ul{
+    /*display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: absolute;
+    top:0px;
+    right:5px;
+    gap:20px;*/
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+nav div{
+    padding: 10px;
+}
+nav a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+span{
+    color: white;
+}
+.start img{
+    height: 3vh;
+}
+#countries{
+    background-color: black;
+    color: white;
+    border: none;
+}
+header img{
+    height: 10vh;
+}
+header{
+    display: flex;
+}
+header ul{
+    display: flex;
+    gap:20px;
+    margin-left: 190px;
+    padding: 10px;
+}
+li {
+list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.signs{
+    text-align: center;
+    background-color: blue;
+    border-radius: 30px;
+    padding: 15px;
+    margin-left: 180px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    width: 100px;
+    position: relative;
+    left: 10px;
+}
+.banner button{
+    position: relative;
+    right: 100px;
+}
+.fa-solid{
+         position: relative;
+         left: 150px;
+         margin-left: 40px;
+}
+.now{
+    position: absolute;
+    left:0px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 30px;
+    padding: 15px;
+    border: none;
+}
+.banner-content b{
+    font-size: 60px;
+}
+.banner-content i{
+    font-size: 20px;
+    color: blue;
+}
+.banner{
+    height: 80vh;
+    margin: 30px;
+    padding:20px;
+    background-image: url(h1_hero.jpg);
+    position: relative;
+    }
+img[src="hero_man.png"]{
+    height: 70vh;
+    margin-top: 35px;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+   }
+.banner-content button {
+    width: 30%;
+    margin-left: 30px;
+    color: white;
+    
+
+}
+.cart{
+    position: relative;
+    display: flex;
+    gap:15px;
+}
+.cart img{
+       width: 400px;
+}
+.banner-content2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left:20%;
+}
+.banner-content2 i{
+    color: blue;
+    position: absolute;
+    margin-top: 100px;
+}
+.banner-content2 button{
+    background-color: yellow;
+    padding: 10px;
+    position:relative;
+    right:20px;
+    top:15px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+}
+.banner-content2 h3{
+    margin-bottom: 10px;
+}
+.banner-content3{
+    position: absolute;
+    right: 500px;
+    bottom: 50px;
+}
+.banner-content3 i{
+    color: blue;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.banner-content3 h3{
+    position: relative;
+    bottom:10px;
+    right:5px;  
+}
+.banner-content3 p{
+    position: relative;
+    bottom:20px; 
+}
+.banner-content4{
+    position: absolute;
+    right: 30px;
+}
+.banner-content4 h3{
+    position:absolute;
+    top: 40px;
+    left:100px;
+}
+.banner-content4 button{
+    background-color: yellow;
+    border: none;
+    position: relative;
+    top: 100px;
+    left: 70px;
+    width: 150px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.banner-content4 i{
+    color: blue;
+    position: relative;
+    top: 130px;
+    right:70px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;   
+}
+.container ul{
+    margin-left: 350px;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+}
+.products del{
+    padding: 10px;
+    color: red;
+}
+.star{
+    color: gold;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    flex: 1;
+}
+.products img{
+    height: 65vh;
+}
+.groupStars{
+    margin-left: 100px;
+}
+.caption{
+    margin-left: 60px;
+}
+.captions{
+     margin-left: 90px;
+}
+.box{
+    background-image: url("image/card.png");
+    display: flex;
+    justify-content: space-between;
+    height: 62vh;
+    margin-top: 150px;
+    margin-left: 80px;
+    margin-right: 80px;   
+}
+.man{
+    margin-bottom: 30px;
+    position:relative;
+    bottom: 100px;
+}
+.man img{
+      height: 80vh;
+}
+.textArea{
+    position: relative;
+    top: 80px;
+}
+.textArea b{
+    font-size: 30px;
+}
+.textArea button{
+    background-color: black;
+    color: white;
+    width: 150px;
+    position: relative;
+    right: 0px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.shape{
+    position: relative;
+    margin-top: 160px;
+    right: 90px;
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    padding: 70px;
+}
+.cardcontainer1{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+.cardcontainer1 b{
+    font-size: 40px;
+}
+.cardcontainer1 p{
+    margin-bottom: 300px;
+}
+.cardcontainer2{
+    position: absolute;
+    bottom:420px;
+    left:10px;
+    width:120px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: blue;
+}
+.collection2 img{
+    height: 90vh;
+}
+.cardcontainer1 img{
+    position: relative;
+    bottom: 140px;
+    right: 20px;
+}
+.cardcontainer3{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    height: 50vh;
+    position: relative;
+    left: 75px;
+    margin-top: 100px;
+}
+.cardcontainer1{
+    margin: 100px;
+}
+.cardcontainer1 button{
+    position: relative;
+    right: 20px;
+}
+.first{
+    position: relative;
+    right: 100px;
+    top:60px;
+}
+.second{
+    position: relative;
+    right: 100px;
+    border: 1px solid blue;
+    color: white;
+    background-color: blue;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.third{
+    position: relative;
+    right: 100px;
+    bottom:40px;
+}
+.fimg{
+    position: relative;
+    bottom: 60px;
+}
+.simg{
+    position: relative;
+    bottom: 130px;
+}
+.timg{
+    position: relative;
+    bottom: 180px;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(h1_hero.jpg);
+    margin: 100px;
+    position: relative;
+    bottom:300px;
+    padding: 100px;
+    height: 60vh;
+}
+.container2 b{
+    font-size: 40px;
+}
+.email{
+    width:300px;
+    color: black;
+    background-color: white;
+    text-align: left;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+.shop{
+    position: absolute;
+    left:850px;
+    color: white;
+    width: 120px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: blue;
+    border: none;
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+    margin: 250px 200px 250px 200px;
+    position: relative;
+    bottom:400px;
+}
+.icon{
+   display: block;
+   position: relative;
+   left:0px;
+   padding:0px;
+   margin:0px;
+}
+.container3 b{
+    font-size: 20px;
+}
+.container4{
+    position: relative;
+    bottom: 500px;
+    margin: 40px;
+    display: flex;
+}
+.container4 img{
+    width: 240px;
+}
+footer{ 
+    position: relative;
+    bottom: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 150px;
+}
+footer img{
+    height: 8vh;
+}
+footer b{
+    position: relative;
+    left: 40px;
+}
+footer li{
+    padding-top: 10px;
+}
+.container5{
+    position: relative;
+    bottom: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+
+}
+.fa-brands{
+    position: relative;
+    left: 90px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
